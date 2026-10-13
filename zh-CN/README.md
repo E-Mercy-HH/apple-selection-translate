@@ -1,8 +1,8 @@
-<p align="center"><a href="README.md">English</a> | 简体中文</p>
+<p align="center"><a href="../">English</a> | 简体中文</p>
 
 # 划词系统翻译
 
-<img src="Resources/AppIcon-1024.png" alt="划词系统翻译图标" width="128">
+<img src="../Resources/AppIcon-1024.png" alt="划词系统翻译图标" width="128">
 
 在其他 Mac 应用中用鼠标选中英文或中文，松开鼠标后自动在附近显示译文。翻译使用 macOS 的 Apple Translation 框架。
 
@@ -24,7 +24,7 @@
 open dist/AppleSelectionTranslate.app
 ```
 
-如果当前选中的开发工具找不到兼容 SDK，可设置 `MACOS_SDK_PATH` 为本机已安装的 SDK 路径再构建。应用图标已包含在仓库中；修改 [图标绘制源码](tools/render_icon.swift) 后运行 `./tools/generate_icon.sh`，再运行 `./build.sh`。
+如果当前选中的开发工具找不到兼容 SDK，可设置 `MACOS_SDK_PATH` 为本机已安装的 SDK 路径再构建。应用图标已包含在仓库中；修改 [图标绘制源码](../tools/render_icon.swift) 后运行 `./tools/generate_icon.sh`，再运行 `./build.sh`。
 
 ## 首次设置与使用
 
@@ -44,8 +44,8 @@ open dist/AppleSelectionTranslate.app
 
 辅助功能是一项范围较广的系统权限。程序仅在上述鼠标选区手势后读取前台焦点控件的选中文字，拒绝安全文本框；它不读取整个输入框、不保存翻译历史、不读取或修改剪贴板，源码中也没有应用自建的网络请求。你主动选中的敏感文字仍会进入应用内存和系统翻译流程；可随时从菜单栏暂停，或到系统设置撤销权限。[Apple 说明](https://developer.apple.com/documentation/translation/translationsession) `TranslationSession` 在设备上处理原文和译文，但 Apple 可能收集不含文字内容的 API 使用和性能指标。
 
-源码审查的验证范围与剩余风险见 [安全审查说明](SECURITY_REVIEW.md)。
+源码审查的验证范围与剩余风险见 [安全审查说明](../SECURITY_REVIEW.md)。
 
 ## 许可证
 
-本项目采用 [MIT 许可证](LICENSE)。
+本项目采用 [MIT 许可证](../LICENSE)。

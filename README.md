@@ -1,4 +1,4 @@
-<p align="center">English | <a href="README.zh-CN.md">简体中文</a></p>
+<p align="center">English | <a href="zh-CN/">简体中文</a></p>
 
 # Apple Selection Translate
 
