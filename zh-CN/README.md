@@ -1,4 +1,4 @@
-<p align="center"><a href="../">English</a> | 简体中文</p>
+<p align="center"><a href="https://github.com/E-Mercy-HH/apple-selection-translate">English</a> | 简体中文</p>
 
 # 划词系统翻译
 
